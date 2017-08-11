@@ -159,7 +159,7 @@ footer{
 		height: 10rem;
 	}
 	.mobile-nav{
-		margin-top: 5rem;
+		margin-top: 3.5rem;
 	}
 	.new-arrival{
 	  width: 100%;
@@ -176,6 +176,7 @@ footer{
 		font-family: Helvetica;
 		font-size: 1rem;
 		font-weight: bold;
+		overflow: auto;
 	}
 	.products{
 		width: 91%;
@@ -216,6 +217,11 @@ footer{
 	display: block;
 	text-align: center;
     }
+	.location-hours{
+		justify-content: space-around;
+		align-items: center;
+		width: auto;
+	}
 }
 
 @media only screen and (min-width: 1025px){
