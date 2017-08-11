@@ -8,9 +8,12 @@ body{
 	font-family: Helvetica, sans-serif;
 	line-height: 1.4em;
 }
-
+h4{
+  font-variant-caps:all-small-caps;
+}
 h1, h4{
 	font-weight: bold;
+	
 }
 
 .staticheader{
@@ -170,7 +173,6 @@ footer{
 		font-family: Helvetica;
 		font-size: 0.77rem;
 		font-weight: normal;
-		font-variant-caps:all-small-caps;
 	}
 	.new-arrival h1{
 		font-family: Helvetica;
