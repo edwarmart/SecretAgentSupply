@@ -170,19 +170,20 @@ footer{
 		font-family: Helvetica;
 		font-size: 0.77rem;
 		font-weight: normal;
-		font-variant-caps:all-small-caps
+		font-variant-caps:all-small-caps;
 	}
 	.new-arrival h1{
 		font-family: Helvetica;
 		font-size: 1rem;
 		font-weight: bold;
-		overflow: auto;
 	}
 	.products{
-		width: 91%;
 		align-content: center;
 		justify-content: center;
 		
+	}
+	.product{
+		width: 91%;
 	}
 	.glasses{
 		display: none;
@@ -194,12 +195,18 @@ footer{
 	.title{
 		margin-top: 10px;
 	}
+	.location-hours{
+		justify-content: center;
+		align-items: center;
+		margin: 10px auto;
+		width: auto;
+	}
 	footer{
 		text-align: center;
 	}
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) and (min-width: 471px){
 	body{
 		font-size: 16px;
 	}
